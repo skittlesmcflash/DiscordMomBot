@@ -23,10 +23,4 @@ console.log("Connected as: " + client.User.username);
   e.message.channel.sendMessage("https://i.ytimg.com/vi/WMgAdutPzyI/maxresdefault.jpg");
   console.log(e.message.content);
   }
-
- if (e.message.content.substring(0,12).toLowerCase() == "engagecowgirl"){
-  e.message.channel.sendMessage("https://i.imgur.com/eZ6S59d.jpg");
-  console.log(e.message.content);
-  }
-
   });
