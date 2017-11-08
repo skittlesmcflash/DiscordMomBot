@@ -24,3 +24,10 @@ console.log("Connected as: " + client.User.username);
   console.log(e.message.content);
   }
   });
+
+  if (e.message.content.substring(0,2) == "im sick" && nagCheck <= 1.00){
+  e.message.channel.sendMessage("Its because you are always on that phone.");
+  nagCheck = Math.random();
+}else if(e.message.content.substring(0,2) == "Hi"){
+  nagCheck = Math.random();
+}
